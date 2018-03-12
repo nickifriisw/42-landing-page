@@ -1,0 +1,143 @@
+body, html {
+	background-color: #fafafa !important;
+}
+.container {
+	background-color: initial;
+}
+.front-border {
+	width: 30%;
+	margin-left: 30%;
+}
+.main-landing {
+	margin-top: -10%;
+}
+
+.presentation p {
+	text-align: center;
+	padding: 30px 40px;
+}
+.col-md-6 {
+	width: 100%;
+}
+
+.col-md-4 {
+	width: 100%
+}
+.safety-rule {
+	position: relative;
+}
+
+.safety-rule .fa {
+	color: #1875f0;
+	position: absolute;
+	font-size: 40px;
+	top: 20%;
+    font-weight: lighter;
+    right: 5%;
+    margin: 0;
+}
+
+.letter {
+  color: #f5f5f5;
+  font-size: 80px;
+  font-weight: 400;	
+  text-align: right;
+}
+
+.safety-rule h4 {
+	color: #666666;
+	margin-top: 10%;
+	font-weight: bold;
+}
+
+.price .col-md-4 {
+	border: 1px solid #f3f3f3;
+}
+
+.price .col-md-4 h5{
+	font-weight: bold;
+	text-align: center;
+	padding: 20px 0px;
+	border-bottom: 1px solid #f3f3f3;
+	border-width: 100%;
+}
+
+.dsign {
+	border: 1px solid #f3f3f3;
+	border-radius: 50%;
+	padding: 5px 10px;
+}
+
+.dprice {
+	font-size: 60px;
+	font-family: Roboto;
+}
+
+.duration {
+	border: 1px solid #f3f3f3;
+	border-radius: 50%;
+	padding: 7px 5px;
+}
+
+.col-sm-4 {
+	text-align: center;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.col-md-12 {
+	padding-bottom: 30px;
+	border-bottom: 1px solid #f3f3f3;
+}
+
+.col-sm-12 p {
+	padding: 20px;
+	font-weight: bold;
+	letter-spacing: 0.75px;
+}
+
+.card-left,
+.card-right {
+    margin: 0;
+	margin-bottom: 50px;
+	background-color: #FFF;
+	padding: 30px 40px;
+}
+.bg-white {
+	background-color: #FFF;
+}
+
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+.col-md-4 {
+	width: 33.333%
+	}
+.col-md-6 {
+	width: 50%;
+	}
+    .card-left {
+    margin-right: 20px;
+
+    }
+    .card-right {
+    margin-left: 20px;
+
+    }
+	.letter {
+	padding-top: 55px;
+	text-align: center;
+	font-size: 150px;
+	}
+	.safety-rule .fa {
+	top: 5%;
+    font-weight: lighter;
+    left: 15%;
+	margin-top: 30px;
+	font-size: 80px;
+	}
+    .presentation p {
+	text-align: center;
+	padding: 75px;
+	}
+}

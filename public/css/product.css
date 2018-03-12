@@ -1,0 +1,57 @@
+.front-border {
+	width: 30%;
+	margin: 0 auto;
+}
+.border1 {
+	border-color: #50d166;
+}
+.product-text {
+	padding: 20px;
+}
+.product-text p {
+	font-size: 14px;
+	color: #9a9999;
+}
+.text-image img {
+	margin: 60px;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+.landing-platform-image {
+	margin-top: -10%;
+}
+.landing-container {
+	height: 350px;
+}
+
+/* Breakpoints */
+
+/*Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+   .landing-platform-image {
+	margin-top: -17%;
+	}
+    .landing-container {
+	height: 500px;
+	}
+	.product-text {
+	padding: 40px 80px;
+	}
+	.product-text p {
+	font-size: 24px;
+	}
+	}
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+	.landing-container {
+	height: 700px;
+	}
+}
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+	.landing-container {
+	height: 750px;
+	}
+	.landing-platform-image {
+	margin-top: -15%;
+	}
+}

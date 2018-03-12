@@ -1,0 +1,160 @@
+body {
+	background-color: #fafafa;
+}
+
+.presentation p{
+	margin-top: -15%;
+	color: grey;
+	text-align: center;
+	padding: 30px 40px;
+}
+
+.col-sm-4 h5 {
+	margin: 0;
+	margin-top: 50px;
+}
+.col-sm-4 .fa {
+	margin-right: 20px;
+}
+.row .col-sm-4 {
+	padding: 60px;
+}
+
+iframe {
+	margin-bottom: 0;
+	padding-bottom: 0;
+	height: 300px;
+}
+
+.col-sm-3 {
+	padding: 0 !important;
+	margin: 0 !important;
+	position: relative;
+}
+.hero-text {
+    text-align: left;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    color: white;
+}
+
+.hero-text p{
+	color: #b3b3b3;
+	margin-left: 20px;
+}
+
+.hero-text h3 {
+	margin-left: 20px;
+}
+
+.hero-block:hover .social {
+	display:block;
+}
+
+.hero-block:hover .hero-text {
+	bottom: 0;
+}
+
+.social {
+	color: #FFF;
+	display: none;
+	text-align: center !important;
+	width: 100% !important;
+	background-color: #1875f0;
+	padding: 30px;
+}
+
+.social .fa {
+	margin: 0;
+}
+
+.social .fa:hover {
+	color: white;
+	cursor: pointer;
+}
+
+.front-border {
+	width: 30%;
+	margin-left: 30%;
+}
+
+.col-md-8,
+.col-md-4 {
+	width: 100%;
+}
+
+.contact-info {
+	padding: 50px 100px;
+	font-size: 14px;
+}
+
+.contact-info .fa {
+	position: absolute;
+	margin: 0;
+	top: 0;
+    left: -50px;
+	padding: 5px;
+	font-size: 24px;
+}
+.contact-info .fa-phone {
+	top: -7px;
+}
+
+.contact-info .fa-map-marker {
+	top: 10px;
+}
+
+.btn-direction {
+	border: solid 1px #f0f0f0;
+	border-radius: 3px;
+	background-color: #FFF;
+	color: #b3b3b3;
+	padding: 10px 15px;
+	cursor: pointer;	
+}
+
+.btn-direction:hover {
+	color: #FFF;
+	background-color: #1875f0;
+}
+
+.pos-rel {
+	position: relative;
+	line-height: 40px;
+}
+
+.heroes {
+	flex-direction: row;
+    flex-wrap: wrap;
+	justify-content: space-around;
+}
+.heroes .col-sm-3 {
+	width: 200px;
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+	.presentation p {
+	text-align: center;
+	padding: 75px;
+}
+	.col-md-8 {
+	width: 60%;
+}
+	.col-md-4 {
+	width: 40%
+}
+	iframe  {
+	height: 700px;
+}
+	.heroes {
+	flex-direction: row;
+	flex-wrap: unset;
+	
+	}
+	.heroes .col-sm-3 {
+	width: auto;
+}
+}
+
